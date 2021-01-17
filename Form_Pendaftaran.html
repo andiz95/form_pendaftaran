@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+    <style>
+     
+        /* Rounded border */
+        hr.rounded {
+         border-top: 8px solid rgb(2, 2, 2);
+        border-radius: 5px;
+    }
+        u { 
+         text-decoration: underline;
+         font-size: 25px;
+    }
+        img {
+        opacity: 0.2;
+        background-size: 100% 100%;
+    }
+    /* body {
+    background-image: url("https://www.astra.co.id/Public/april-19/Banner-MA.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 5.0;
+    } */
+  
+
+    
+    </style>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Formulir Pendaftaran</title>
+        
+    </head>
+    
+    
+    
+    <body>
+        
+        <form action="" method="post">
+            <table>
+                
+                <tr>
+                    <td>
+                      <label style="font-size: 10.5pt;" for="name"><strong>PT.EXCELLENT</strong></label> <br>
+                      <label for="alamat">Jl.Kembang Permai II Blok 5 No.6</label><br>
+                      <label for="lokasi">Puri indah, Jakartaa Barat 11610</label><br>
+                      <span style='font-size:20px;'>&#9742;</span>
+                      <label for="telpon">021-93397876,5805352</label><br>
+                      <label for="fax">Fax 021-5805352, E-mail: excellent@cbn.net.id</label><br>
+                     
+                    </td>
+                     
+                  </tr>
+            <!-- <h6 style="font-size: small;"><strong>PT.EXCELLENT</strong></h6> -->
+            </table>
+        </form>
+        <hr style="color: black;" class="rounded">
+        <p style="text-align: center;" ><u><b>FORMULIR PENDAFTARAN</b></u><p>
+        
+            
+            <canvas style="position: relative; left: 1000px; top:2px;" id="myCanvas"></canvas>
+                
+                <script>
+                var c = document.getElementById("myCanvas");
+                var ctx = c.getContext("2d");
+                ctx.font = "18px Arial";
+                ctx.fillText("Pas Photo", 208, 50);
+                ctx.fillText("2x3", 237, 90);
+                ctx.strokeRect(200, 20, 100, 100);
+                ctx.align
+                </script>
+                <td>
+                    <input style="position: relative; left: 910px; top:2px;" type="submit" value="Pilih Foto" />
+                  </td>
+               
+               <form action="" method="post">
+                <table>
+                    <label style="position: relative; left: 20px; top:2px;" style="font-size: 10.5pt;" for="name"><strong>I. KETERANGAN PRIBADI</strong></label> <br>
+                    <tr>
+                        <td style="position: relative; left: 25px; top:2px;">01.</td>
+                        <td>
+                          <label style="position: relative; left: 25px; top:2px;" for="name">Nama Lengkap</label><br>
+                        </td>
+                        <td style="position: relative; left: 30px; top:2px;">:</td>
+                        <td><input style="position: relative; left: 35px; top:2px;" type="text" name="name" id="name"></textarea></td>
+                      </tr>
+                      <tr>
+                        <td style="position: relative; left: 25px; top:2px;">02.</td>
+                        <td>
+                          <label style="position: relative; left: 25px; top:2px;" for="namaPanggil">Nama Panggilan</label><br>
+                        </td>
+                        <td style="position: relative; left: 30px; top:2px;">:</td>
+                        <td><input style="position: relative; left: 35px; top:2px;" type="text" name="namaPanggil" id="namaPanggil"></textarea></td>
+                      </tr>
+                      <tr>
+                        <td style="position: relative; left: 25px; top:2px;">03.</td>
+                        <td>
+                          <label style="position: relative; left: 25px; top:2px;" for="gender">Jenis Kelamin</label><br>
+                        </td>
+                        <td style="position: relative; left: 30px; top:2px;">:</td>
+
+                       <td> <form  action="/action_page.php">
+                            <input style="position: relative; left: 30px; top:2px;" type="radio" id="male" name="gender" value="male">
+                            <label style="position: relative; left: 30px; top:2px;" for="male">Laki-Laki</label>
+                            <input style="position: relative; left: 30px; top:2px;" type="radio" id="female" name="gender" value="female">
+                            <label style="position: relative; left: 30px; top:2px;" for="female">Perempuan</label>
+                            <td style="position: relative; right: 150px; top:2px;">*</td>
+                       </td>
+                      </tr>
+                      <tr>
+                        <td style="position: relative; left: 25px; top:2px;">04.</td>
+                        <td>
+                          <label style="position: relative; left: 25px; top:2px;" for="tempat">Tempat Lahir</label><br>
+                        </td>
+                        <td style="position: relative; left: 30px; top:2px;">:</td>
+                        <td><input style="position: relative; left: 35px; top:2px;" type="text" name="tempat" id="tempat"></textarea></td>
+                      </tr>
+                      <tr>
+                        <td style="position: relative; left: 25px; top:2px;">05.</td>
+                        <td>
+                          <label style="position: relative; left: 25px; top:2px;" for="tanggal">Tanggal Lahir</label><br>
+                        </td>
+                        <td style="position: relative; left: 30px; top:2px;">:</td>
+                        <td><input style="position: relative; left: 35px; top:2px;" type="text" name="tanggal" id="tanggal"></textarea></td>
+                      </tr>
+                      <tr>
+                        <td style="position: relative; left: 25px; top:2px;">06.</td>
+                        <td>
+                          <label style="position: relative; left: 25px; top:2px;" for="name">Agama</label><br>
+                        </td>
+                        <td style="position: relative; left: 30px; top:2px;">:</td>
+
+                       <td> <form  action="/action_page.php">
+                            <input style="position: relative; left: 30px; top:2px;" type="radio" id="agama" name="agama" value="male">
+                            <label style="position: relative; left: 30px; top:2px;" for="Islam">Islam</label>
+                            <input style="position: relative; left: 30px; top:2px;" type="radio" id="agama" name="agama" value="female">
+                            <label style="position: relative; left: 30px; top:2px;" for="Katholik">Katholik</label>
+                            <input style="position: relative; left: 30px; top:2px;" type="radio" id="agama" name="agama" value="female">
+                            <label style="position: relative; left: 30px; top:2px;" for="Kristen">Kristen</label>
+                            <input style="position: relative; left: 30px; top:2px;" type="radio" id="agama" name="agama" value="female">
+                            <label style="position: relative; left: 30px; top:2px;" for="Buddha">Buddha</label>
+                            <input style="position: relative; left: 30px; top:2px;" type="radio" id="agama" name="agama" value="female">
+                            <label style="position: relative; left: 30px; top:2px;" for="Hindu">Hindu</label>
+                            <td style="position: relative; left: 30px; top:2px;">*</td>
+                       </td>
+                      </tr>
+                      <tr>
+                        <td style="position: relative; left: 25px; top:2px;">07.</td>
+                        <td>
+                          <label style="position: relative; left: 25px; top:2px;" for="negara">Kewarganegaraan</label><br>
+                        </td>
+                        <td style="position: relative; left: 30px; top:2px;">:</td>
+                        <td><input style="position: relative; left: 35px; top:2px;" type="text" name="negara" id="negara"></textarea></td>
+                      </tr>
+                      <tr>
+                        <td style="position: relative; left: 25px; top:2px;">08.</td>
+                        <td>
+                          <label style="position: relative; left: 25px; top:2px;" for="anak">Anak ke</label><br>
+                        </td>
+                        <td style="position: relative; left: 30px; top:2px;">:</td>
+                        <td><input style="position: relative; left: 35px; top:2px;" type="text" name="anak" id="anak"></textarea></td>
+                      </tr>
+                      <tr>
+                        <td style="position: relative; left: 25px; top:2px;">09.</td>
+                        <td>
+                          <label style="position: relative; left: 25px; top:2px;" for="saudara">Jumlah saudara</label><br>
+                        </td>
+                        <td style="position: relative; left: 30px; top:2px;">:</td>
+                        <td><input style="position: relative; left: 35px; top:2px;" type="text" name="saudara" id="saudara"></textarea></td>
+                      </tr>
+                      <tr>
+                        <td style="position: relative; left: 25px; top:2px;">10.</td>
+                        <td>
+                          <label style="position: relative; left: 25px; top:2px;" for="status">Status</label><br>
+                        </td>
+                        <td style="position: relative; left: 30px; top:2px;">:</td>
+
+                       <td> <form  action="/action_page.php">
+                            <input style="position: relative; left: 30px; top:2px;" type="radio" id="status" name="status" value="male">
+                            <label style="position: relative; left: 30px; top:2px;" for="Kawin">Kawin</label>
+                            <input style="position: relative; left: 30px; top:2px;" type="radio" id="status" name="status" value="female">
+                            <label style="position: relative; left: 30px; top:2px;" for="Belum Kawin">Belum Kawin</label>
+                            <td style="position: relative; right: 150px; top:2px;">*</td>
+                       </td>
+                      </tr>
+                      <tr>
+                        <td style="position: relative; left: 25px; top:2px;">11.</td>
+                        <td>
+                          <label style="position: relative; left: 25px; top:2px;" for="sim">Jenis SIM</label><br>
+                        </td>
+                        <td style="position: relative; left: 30px; top:2px;">:</td>
+                        <td><input style="position: relative; left: 35px; top:2px;" type="text" name="sim" id="sim"></textarea></td>
+                      </tr>
+                         
+                </table>
+                <label style="position: relative; left: 25px; top:2px;"><i>Keterangan:</i></td>
+                  <label style="position: relative; left: 25px; top:2px;" for="keterangan"><i>(*)Coret yang tidak perlu.</i></label><br>
+
+                
+            </form>
+            <br>
+            <form action="" method="post">
+                <table>
+                    <label style="position: relative; right: 5px; top:2px;" style="font-size: 10.5pt;" for="name"><strong>II. KETERANGAN TEMPAT TINGGAL</strong></label> <br>
+                    <tr>
+                        <td style="position: relative; left: 0px; top:2px;">01.</td>
+                        <td>
+                          <label style="position: relative; left: 0px; top:2px;" for="alamat_lengkap">Alamat Lengkap</label><br>
+                        </td>
+                        <td style="position: relative; left: 10px; top:2px;">:</td>
+                        <td><textarea style="position: relative; left: 15px; top:2px;" type="text" name="alamat_lengkap" id="alamat_lengkap" cols="20" rows="3"></textarea></td>
+                      </tr>
+                      <tr>
+                        <td style="position: relative; left: 0px; top:2px;">02.</td>
+                        <td>
+                          <label style="position: relative; left: 0px; top:2px;" for="ktp">No. KTP</label><br>
+                        </td>
+                        <td style="position: relative; left: 10px; top:2px;">:</td>
+                        <td><input style="position: relative; left: 15px; top:2px;" type="text" name="ktp" id="ktp" ></textarea></td>
+                      </tr>
+                      <tr>
+                        <td style="position: relative; left: 0px; top:2px;">03.</td>
+                        <td>
+                          <label style="position: relative; left: 0px; top:2px;" for="telp">No. Tlp/HP</label><br>
+                        </td>
+                        <td style="position: relative; left: 10px; top:2px;">:</td>
+                        <td><input style="position: relative; left: 15px; top:2px;" type="text" name="telp" id="telp" ></textarea></td>
+                      </tr>
+                      <tr>
+                        <td style="position: relative; left: 0px; top:2px;">04.</td>
+                        <td>
+                          <label style="position: relative; left: 0px; top:2px;" for="alamat_lain">Alamat Lain</label><br>
+                        
+                            <!-- <label style="position: relative; left: 0px; top:2px;" for="alamat_lain">yang dapat </label><br>
+                            <label style="position: relative; left: 0px; top:2px;" for="alamat_lain">dihubungi</label><br> -->
+                          </td>
+                        <td style="position: relative; left: 10px; top:2px;">:</td>
+                        <td><textarea style="position: relative; left: 15px; top:2px;" type="text" name="alamat_lain" id="alamat_lain" cols="20" rows="3"></textarea></td>
+                      </tr>
+                      <tr>
+                        <td style="position: relative; left: 0px; top:2px;">05.</td>
+                        <td>
+                          <label style="position: relative; left: 0px; top:2px;" for="telp_lain">No. Tlp/HP lain</label><br>
+                        </td>
+                        <td style="position: relative; left: 10px; top:2px;">:</td>
+                        <td><input style="position: relative; left: 15px; top:2px;" type="text" name="telp_lain" id="telp_lain"  ></textarea></td>
+                       
+                    </tr>
+                   
+                      
+                   
+                </table>
+              <br>
+                <td>
+                    <input style="position: relative; left: 110px; top:2px;" type="submit" value="Submit" />
+                  </td>
+         
+            </form>
+            <br>
+            <p style="text-align: center;" ><b>1</b><p>
+    </body>
+   
+</html>
